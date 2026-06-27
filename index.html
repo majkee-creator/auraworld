@@ -4,35 +4,36 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Auraworld — See more. Understand more. Be more.</title>
-  <meta name="description" content="Auraworld builds premium, privacy-conscious AI mobile experiences including MeetBrief, AURA Camera and Future Self." />
+  <meta name="description" content="Auraworld builds beautifully designed AI mobile experiences that help people see more, understand more, and be more." />
+  <link rel="icon" href="assets/aura-icon.png" />
+  <link rel="apple-touch-icon" href="assets/aura-icon.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="grain"></div>
-  <div class="ambient ambient-one"></div>
-  <div class="ambient ambient-two"></div>
-
+  <div class="noise"></div>
   <header class="nav">
-    <a class="brand" href="index.html" aria-label="Auraworld home">
-      <span class="brand-mark" aria-hidden="true"><i></i></span>
-      <span class="brand-type"><b>AURA</b><em>WORLD</em></span>
+    <a class="brand" href="#top" aria-label="Auraworld home">
+      <img src="assets/aura-icon.png" alt="Auraworld symbol" />
+      <span><strong>AURA</strong><em>WORLD</em></span>
     </a>
     <nav>
       <a href="#products">Products</a>
       <a href="#symbol">Symbol</a>
       <a href="privacy.html">Privacy</a>
       <a href="support.html">Support</a>
-      <a class="nav-pill" href="mailto:hello@auraworld.app">Contact</a>
+      <a class="pill" href="mailto:hello@auraworld.app">Contact</a>
     </nav>
   </header>
 
-  <main>
+  <main id="top">
     <section class="hero">
-      <div class="hero-card">
-        <div class="aura-symbol large" aria-hidden="true"><span></span></div>
-        <p class="eyebrow"><span></span> Building the future of AI mobile experiences</p>
-        <h1>See more.<br />Understand more.<br /><span>Be more.</span></h1>
-        <p class="lead">Auraworld creates beautifully designed, privacy-conscious AI products that help people capture, understand and simplify everyday life.</p>
+      <div class="hero-glow one"></div>
+      <div class="hero-glow two"></div>
+      <div class="hero-inner">
+        <img class="hero-symbol" src="assets/aura-icon.png" alt="Aura symbol" />
+        <p class="eyebrow"><span></span> AI mobile experiences by Auraworld</p>
+        <h1>See more.<br>Understand more.<br><span>Be more.</span></h1>
+        <p class="hero-copy">A premium AI software studio creating private, beautiful and useful products for everyday life.</p>
         <div class="actions">
           <a class="button primary" href="#products">Explore products</a>
           <a class="button ghost" href="mailto:hello@auraworld.app">hello@auraworld.app</a>
@@ -40,71 +41,64 @@
       </div>
     </section>
 
-    <section id="products" class="section products-section">
+    <section class="intro section">
+      <p class="kicker">The company</p>
+      <h2>One brand. Multiple AI products.</h2>
+      <p>Auraworld is the home for focused AI apps: tools that capture information, explain what matters, remember context, and simplify the way people work and live.</p>
+    </section>
+
+    <section id="products" class="section products">
       <div class="section-head">
-        <p class="label">Products</p>
-        <h2>One brand. Multiple intelligent tools.</h2>
-        <p>Each Auraworld product is designed to feel premium, useful and private from the first tap.</p>
+        <p class="kicker">Products</p>
+        <h2>Designed like software people want to keep.</h2>
       </div>
-      <div class="product-grid">
+      <div class="grid">
         <article class="product-card featured">
-          <span class="status live">Live</span>
-          <h3>MeetBrief</h3>
-          <p>AI meeting summaries, decisions and action items, built for people who want clarity after every conversation.</p>
-          <a href="support.html">Support →</a>
+          <div class="card-top"><span>Live</span><b>MeetBrief</b></div>
+          <h3>AI meeting intelligence.</h3>
+          <p>Summaries, key decisions and follow-ups from meetings, shaped for people who need clarity fast.</p>
         </article>
         <article class="product-card">
-          <span class="status soon">Building</span>
-          <h3>AURA Camera</h3>
-          <p>A live camera layer that helps you understand objects, spaces and moments around you.</p>
-          <a href="mailto:hello@auraworld.app">Join the waitlist →</a>
+          <div class="card-top"><span>Concept</span><b>Future Self</b></div>
+          <h3>Talk to who you’re becoming.</h3>
+          <p>A personal AI timeline that turns goals into a clearer vision of the future.</p>
         </article>
         <article class="product-card">
-          <span class="status soon">Concept</span>
-          <h3>Future Self</h3>
-          <p>An AI life simulator that turns goals into a timeline, helping you see the future you are building.</p>
-          <a href="mailto:hello@auraworld.app">Contact →</a>
+          <div class="card-top"><span>Coming soon</span><b>AURA AI</b></div>
+          <h3>See the world with context.</h3>
+          <p>An AI camera experience built around understanding, memory and real-world insight.</p>
         </article>
       </div>
     </section>
 
-    <section id="symbol" class="section symbol-section">
-      <div class="split">
-        <div>
-          <p class="label">The symbol</p>
-          <h2>A window. A path. A spark.</h2>
-          <p>The AURA mark represents enhanced perception: a portal to information, a beam of light, and the moment of insight.</p>
-          <div class="mini-grid">
-            <div><strong>See</strong><span>Capture the world in a new way.</span></div>
-            <div><strong>Understand</strong><span>AI brings clarity and context.</span></div>
-            <div><strong>Expand</strong><span>Build toward infinite possibilities.</span></div>
-          </div>
-        </div>
-        <div class="symbol-showcase">
-          <div class="aura-symbol showcase" aria-hidden="true"><span></span></div>
-          <p>Simple enough to remember. Strong enough to become an icon.</p>
-        </div>
+    <section id="symbol" class="symbol-section section">
+      <div class="symbol-copy">
+        <p class="kicker">The symbol</p>
+        <h2>A window. A light. A spark.</h2>
+        <p>The Aura mark represents enhanced perception: a portal to information, a path of discovery, and the moment insight becomes useful.</p>
+        <ul>
+          <li><span></span> Built for dark and light mode</li>
+          <li><span></span> Strong at app-icon scale</li>
+          <li><span></span> Simple enough to become memorable</li>
+        </ul>
       </div>
-    </section>
-
-    <section class="section brand-board-section">
-      <img class="brand-board" src="aura-brand-board.png" alt="AURA brand board showing the symbol meaning and icon variations" />
+      <div class="symbol-frame">
+        <img src="assets/aura-brand-board.png" alt="Aura brand board" />
+      </div>
     </section>
 
     <section class="section vision">
-      <p class="label">Vision</p>
-      <h2>AI that feels less like software and more like an extra layer of understanding.</h2>
-      <p>Built from Bratislava for a world where mobile apps become smarter, calmer and more useful.</p>
-      <a class="button primary" href="mailto:contact@auraworld.app">Start a conversation</a>
+      <img src="assets/aura-icon.png" alt="Aura symbol" />
+      <h2>Software that helps people notice what matters.</h2>
+      <p>Capture. Understand. Remember. Connect. Expand.</p>
     </section>
   </main>
 
   <footer>
-    <div><strong>AURAWORLD</strong><p>© 2026 Auraworld. All rights reserved.</p></div>
-    <div class="footer-links">
+    <a class="brand small" href="#top"><img src="assets/aura-icon.png" alt="" /><span><strong>AURA</strong><em>WORLD</em></span></a>
+    <div class="foot-links">
       <a href="privacy.html">Privacy</a>
       <a href="support.html">Support</a>
-      <a href="mailto:legal@auraworld.app">Legal</a>
       <a href="mailto:hello@auraworld.app">hello@auraworld.app</a>
     </div>
   </footer>
