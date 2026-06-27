@@ -1,2 +1,3 @@
-# auraworld
-Official Auraworld website
+# Auraworld
+
+Official Auraworld website.
