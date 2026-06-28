@@ -1,3 +1,0 @@
-# Auraworld
-
-Official Auraworld website.
